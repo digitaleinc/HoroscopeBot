@@ -1,0 +1,70 @@
+{
+  "start": "menu",
+
+  "user_statuses": {
+    "guest": "Обычный Пользователь",
+    "subscriber": "Платный Пользователь"
+  },
+  "payment_statuses": {
+    "open": "Открыто",
+    "payed": "Оплачено"
+  },
+
+  "main_menu_buttons": {
+    "subscribe": "Подписка",
+    "tarot_horoscope": "Расклад таро | Гороскоп",
+    "profile": "Профиль"
+  },
+
+  "subscription_text": "Выберите подходящий вариант подписки:",
+  "subscription_options": {
+    "week": "На неделю",
+    "month": "На месяц",
+    "single_use": "Разовая (1 раз)",
+    "two_uses": "На 2 раза",
+    "five_uses": "На 5 раз"
+  },
+
+  "payment_success": "Оплата успешна! Ваша подписка активирована.",
+  "payment_failure": "Оплата не удалась. Попробуйте снова.",
+
+  "tarot_questions": {
+    "intro": "Ответьте на несколько вопросов для расклада таро:",
+    "question_1": "Какую проблему вы хотите решить?",
+    "question_2": "Что вызывает у вас наибольшие переживания?",
+    "question_3": "Какая ситуация сейчас кажется безвыходной?",
+    "question_4": "Какую цель вы стремитесь достичь?",
+    "question_5": "Какая ваша главная надежда в данный момент?"
+  },
+  "tarot_processing": "Формирую расклад... Пожалуйста, подождите.",
+  "tarot_result": "Ваш расклад таро готов: {result}",
+
+  "horoscope_prompt": "Введите вашу дату рождения (например, 20.11.2000 или 11/20/2000):",
+  "horoscope_invalid_date": "Неверный формат даты. Попробуйте снова.",
+  "horoscope_processing": "Определяем ваш знак зодиака и составляем гороскоп...",
+  "horoscope_result": "Ваш гороскоп для знака: {result}",
+
+  "profile_info": {
+    "header": "Ваш профиль:",
+    "id": "ID: {user_id}",
+    "first_name": "Имя: {first_name}",
+    "last_name": "Фамилия: {last_name}",
+    "subscription": "Подписка: {subscription_info}",
+    "total_usages": "Общее число раскладов/гороскопов: {total_usages}",
+    "referrals": "Количество рефералов: {referral_count}",
+    "referral_earnings": "Сумма заработанная от рефералов: {referral_earnings}",
+    "referral_link": "Реферальная ссылка: {referral_link}"
+  },
+
+  "inline_buttons": {
+    "extend_subscription": "Продлить подписку",
+    "buy_subscription": "Купить подписку",
+    "cancel_action": "Отменить"
+  },
+
+  "messages": {
+    "subscription_extend_not_possible": "Вы должны закончить текущий тип подписки, чтобы изменить на другой.",
+    "action_canceled": "Действие отменено.",
+    "error_occurred": "Произошла ошибка. Попробуйте снова."
+  }
+}

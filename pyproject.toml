@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "tgtarologistbot"
+version = "0.1"
+description = ""
+authors = [""]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+tortoise-orm = {extras = ["asyncodbc"], version = "^0.21.5"}
+loguru = "^0.7.2"
+aiogram = "^3.15.0"
+openai = "^1.54.5"
+python-dateutil = "^2.9.0.post0"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.4.0"
+
+
+[tool.poetry.scripts]
+main = "tgtarologistbot.main:start"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
